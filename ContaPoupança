@@ -1,0 +1,14 @@
+package com.company;
+
+
+public class ContaPoupanca  extends  Conta{
+
+    @Override
+    public void imprimirExtrato(){
+        System.out.println("***Extrato Conta Poupança***");
+        System.out.println(String.format("Agencia:&d",super.agencia));
+        System.out.println(String.format("Numero:&d",super.agencia));
+        System.out.println(String.format("Saldo:%.f",super.agencia));
+    }
+
+}
